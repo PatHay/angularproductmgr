@@ -1,0 +1,9 @@
+#display{
+    width: 90%;
+    display: inline-block;
+    outline: 3px solid black;
+    margin-top: 50px;
+    height: 500px;
+    padding: 20px;
+    background-color: lightblue;
+}

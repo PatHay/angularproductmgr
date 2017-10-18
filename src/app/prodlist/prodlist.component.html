@@ -1,0 +1,7 @@
+<ul *ngFor="let prod of prodList">
+  <li>
+    {{ prod.title }} {{ prod.price | currency:US:true }} {{ prod.imgurl }}
+    <button [routerLink]="['/products', prod.id, 'edit' ]">EDIT</button>
+    <button (click)="delete(prod)">DELETE</button>
+  </li>
+</ul>
